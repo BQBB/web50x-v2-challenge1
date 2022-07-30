@@ -1,0 +1,198 @@
+/*---------- NAV ----------*/
+
+.title {
+    padding: 10px;
+    line-height: 68px;
+    letter-spacing: 8px;
+    font-size: 32px;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.nav-bg-pink {
+    padding: 15px;
+    background-color: rgba(183, 76, 76, 0.42);
+    align-items: center;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+nav > a:hover {
+    color: white;
+}
+
+/*---------- BANNER ----------*/
+
+.banner {
+    background-color: rgba(176, 85, 85, 0.63);
+    align-items: center;
+    border-bottom-left-radius: 30px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 40px 40px 40px 40px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    align-items: center;
+
+    width: 25rem;
+}
+
+.about-me-details {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+    width: 50rem;
+}
+
+h4, h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    margin-right: 20px;
+}
+
+.lets-chat {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+
+    background-color: rgba(255, 255, 255, 0.49);
+    color: rgba(0, 0, 0, 0.57);
+
+    padding: 10px 100px;
+}
+
+.social {
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    margin: 10px;
+}
+
+
+ul li i {
+    color: rgba(0, 0, 0, 0.57);
+}
+
+/* CONTENT */
+
+.service-image-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgba(183, 76, 76, 0.34);
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.service-title {
+    color: black;
+}
+
+.service-details {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.service-button {
+    background-color: rgba(192, 105, 77, 0.47);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 12px;
+    border: none;
+}
+
+.service-button:hover {
+    background-color: rgba(192, 105, 77, 0.8);
+}
+
+.service-bg-pink {
+    background-color: rgba(183, 76, 76, 0.35);
+}
+
+/* BACKGROUND IMAGE */
+
+.bg-flower {
+    height: 500px;
+    object-fit: cover;
+    opacity: 0.40;
+
+    padding: 0;
+}
+
+.flower-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+
+    margin-top: 5%;
+}
+
+.flower-details {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+
+    margin-top: 2.5%;
+    width: 50rem;
+}
+
+/* TWO COLORS */
+
+.bg-two-colors {
+    background: conic-gradient(rgba(183, 76, 76, 0.35) 0deg 90deg, white 90deg 270deg, rgba(183, 76, 76, 0.35) 270deg 360deg);
+    /*height: 300px;*/
+}
+
+.two-colors-thumbnail {
+    object-fit: scale-down;
+    max-height: 280px;
+    max-width: 280px;
+}
+
+.thumb-n5 {
+    margin-top: -5% ;
+    margin-left: -5%;
+    margin-right: -5%;
+}
+
+.thumb-10 {
+    margin-top: -0.4%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.thumb-n2 {
+    margin-top: -2% ;
+    margin-left: 4%;
+    margin-right: 4%;
+}
