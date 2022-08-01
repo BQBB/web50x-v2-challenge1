@@ -1,0 +1,239 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+}
+
+#table1 {
+    background-color: #B74C4C6B;
+}
+
+#td1>p {
+    padding-left: 30px;
+    font-family: pattaya;
+    font-size: xx-large;
+    margin: 0;
+}
+
+#td1 {
+    width: 50%;
+}
+
+.barlist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.barlist>li {
+    float: left;
+    padding-left: 25px;
+    color: white;
+    font-family: poppins;
+}
+
+
+
+
+#table2 {
+    background-color: #B05555A1;
+}
+
+#circle {
+    margin: 40px 60px;
+    width: 250px;
+    height: 250px;
+    background-color: #C4C4C4;
+    border-radius: 200px;
+}
+
+#td2 {
+    width: 50%;
+    color: white;
+    font-family: poppins;
+    font-weight: bolder;
+}
+
+#td2>#p1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+#td2>#p2 {
+    margin: 30px;
+    text-align: justify;
+    font-size: x-small;
+}
+
+#td2>#p3 {
+    text-align: center;
+}
+
+#td2>#p3>button {
+    padding: 10px 70px;
+    background: rgba(255, 255, 255, 0.49);
+    border: 0;
+    border-radius: 5px;
+    font-family: poppins;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 80px;
+}
+
+#ul2>li {
+    float: left;
+    padding-left: 45px;
+    color: #00000099;
+}
+
+
+
+
+
+#table3 {
+    background-color: #B74C4C59;
+}
+
+#td3 {
+    width: 50%;
+}
+
+#divcard1 {
+    margin: 30px 20px 30px 40px;
+    background: white;
+    padding: 10px;
+}
+
+#divcard1>button {
+    margin-bottom: 30px;
+}
+
+#divcard1>#p1 {
+    text-align: right;
+    margin: 5px;
+}
+
+#divcard12 {
+    margin: 0px 40px 40px 40px;
+}
+
+#divcard12>#p2 {
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+#divcard12>#p3 {
+    text-align: justify;
+    font-family: poppins;
+    font-size: x-small;
+}
+
+#divcard12>button {
+    padding: 10px 40px 10px 40px;
+    background-color: #C0694D78;
+    border: 0;
+    border-radius: 5px;
+}
+
+#divcard2 {
+    margin: 30px 40px 30px 20px;
+    background: white;
+    padding: 10px;
+}
+
+#divcard2>button {
+    margin-bottom: 30px;
+    font-family: poppins;
+}
+
+#divcard2>#p1 {
+    text-align: right;
+    margin: 5px;
+}
+
+#divcard22 {
+    margin: 0px 40px 40px 40px;
+}
+
+#divcard22>#p2 {
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+#divcard22>#p3 {
+    text-align: justify;
+    font-family: poppins;
+    font-size: x-small;
+}
+
+#divcard22>button {
+    padding: 10px 40px 10px 40px;
+    background-color: #C0694D78;
+    border: 0;
+    border-radius: 5px;
+    font-family: poppins;
+
+}
+
+
+
+#square2>#p1 {
+    display: inline;
+    font-family: poppins;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+#square2>button {
+    display: inline;
+    background-color: #C0694D78;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    margin-left: 60px;
+    color: white;
+}
+
+#square2>#p2 {
+    margin-left: 30px;
+    width: 300px;
+    text-align: justify;
+    font-family: poppins;
+    font-size: x-small;
+}
+
+#square1 {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background-color: #C4C4C4;
+    border: 25px solid #B74C4C59;
+    margin: 30px;
+}
+
+#square2 {
+    display: inline;
+}
+
+
+
+#pt5 {
+    font-family: poppins;
+}
+
+.ull>li {
+    color: #00000099;
+}
