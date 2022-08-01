@@ -1,0 +1,230 @@
+nav {
+    height: 80px;
+}
+
+
+nav ul,
+nav ul .nav-link,
+nav ul .nav-link.active {
+    color: white !important;
+}
+
+
+.bg-light-pink {
+    background-color: #E1B4B4;
+}
+
+
+.hero-section {
+    min-height: calc(100vh - 80px);
+    background-color: #CD9494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-section div button {
+    background: #E6C8C8;
+    border: none;
+    border-radius: 5px;
+    width: 12rem;
+    padding: 10px;
+    color: rgba(0, 0, 0, .57);
+    cursor: pointer;
+}
+
+
+.hero-section img {
+    height: 300px;
+    width: 300px;
+    margin: 16px 0;
+}
+
+
+
+#services {
+    margin-top: 100px;
+}
+
+
+#services .second-part {
+    background-color: #E1B4B4;
+    margin-top: 100px;
+    padding: 25px 0;
+}
+
+
+#services .two-cards .my-card {
+    background-color: white;
+    padding: 3rem;
+}
+
+
+#services .two-cards .my-card button {
+    background: #E1B4B4;
+    border: none;
+    border-radius: 5px;
+    width: 12rem;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+#services .two-cards .my-card .arrow-icon i {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+
+#services .three-cards button {
+    background: #E1B4B4;
+    border: none;
+    border-radius: 5px;
+    width: 6rem;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+#services .three-cards .my-card .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#services .three-cards .my-card img {
+    background: #e1b4b4;
+    padding: 20px;
+}
+
+
+
+#testmonial .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(255 255 255 / 76%);
+}
+
+
+#testmonial .content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#testmonial .arrow-right {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+#testmonial .arrow-left {
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) { 
+    #services .two-cards .my-card:last-child {
+        margin-top: 16px;
+    }
+
+
+    #services .three-cards .my-card .img-container {
+        margin-bottom: 15px;
+    }
+
+
+    #testmonial .content h3 {
+        font-size: 16px;
+    }
+
+    #testmonial .content p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991.9px) { 
+    .navbar-collapse.collapse {
+        position: absolute;
+        left: 0px;
+        top: 80px;
+        background-color: rgb(225, 180, 180);
+        width: 100vw;
+        padding: 15px;
+        transition: all 0.1s ease-in-out 0s;
+    }
+
+
+    .collapsing {
+        -webkit-transition: none;
+        transition: none;
+        display: none;
+    }
+}
+
+
+@media (min-width: 992px) { 
+    nav {
+        height: 100px;
+    }
+
+
+    .nav-item:last-of-type {
+        display: flex;
+    }
+
+
+    .hero-section {
+        min-height: calc(100vh - 100px);
+    }
+
+
+    .hero-section img {
+        height: 500px;
+        width: 500px;
+    }
+
+
+    .follow-me .photos img:nth-child(2n) {
+        position: relative;
+        top: 4.8rem;
+    }
+    
+    
+    .follow-me .photos img:nth-child(3) {
+        position: relative;
+        top: 7rem;
+    }
+
+
+    .icons {
+        margin-top: 7rem !important;
+    }
+}
+
